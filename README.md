@@ -14,7 +14,7 @@ mysql -u root -p
 ```
 
 ```
-create database example
+create database example;
 ```
 
 ```
