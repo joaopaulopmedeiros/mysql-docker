@@ -2,7 +2,7 @@
 
 ## CLI
 ```
-docker run -e MYSQL_ROOT_PASSWORD=root --name mysql-docker -d -p 3306:3306 mysql:5.7
+docker run -e MYSQL_ROOT_PASSWORD=root --name mysql-docker -d -p 3306:3306 mysql:5.7.12
 ```
 
 ```
@@ -32,7 +32,7 @@ version: '3.6'
 
 services: 
     db:
-        image: mysql:5.7
+        image: mysql:5.7.12
         command: --default-authentication-plugin=mysql_native_password
         restart: always
         environment: 
