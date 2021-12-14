@@ -2,11 +2,7 @@
 
 ## CLI
 ```
-docker run -e MYSQL_ROOT_PASSWORD=root --name 
-```
-
-```
-mysql-docker -d -p 3306:3306 mysql:5.7
+docker run -e MYSQL_ROOT_PASSWORD=root --name mysql-docker -d -p 3306:3306 mysql:5.7
 ```
 
 ```
